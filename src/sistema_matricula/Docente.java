@@ -12,17 +12,17 @@ import java.util.List;
  *
  * @author Kenneth
  */
-public class Personal_docente extends Persona {
+public class Docente extends Persona {
 
     private String num_usuario_interino;
     private int num_usuario;
     private String contrasena;
     private List<Persona> docente = new ArrayList<Persona>();
 
-    public Personal_docente() {
+    public Docente() {
     }
 
-    public Personal_docente(String num_usuario_interino, int num_usuario, String contrasena, String nombre, String primero_apellido, String segundo_apellido, int cedula, int edad, boolean sexo) {
+    public Docente(String num_usuario_interino, int num_usuario, String contrasena, String nombre, String primero_apellido, String segundo_apellido, int cedula, int edad, boolean sexo) {
         super(nombre, primero_apellido, segundo_apellido, cedula, edad, sexo);
         this.num_usuario_interino = num_usuario_interino;
         this.num_usuario = num_usuario;

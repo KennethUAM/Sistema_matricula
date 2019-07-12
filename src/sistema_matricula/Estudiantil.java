@@ -12,16 +12,16 @@ import java.util.List;
  *
  * @author Kenneth
  */
-public class Personal_estudiantil extends Persona {
+public class Estudiantil extends Persona {
 
     private List<Persona> estudiantes = new ArrayList<Persona>();
     private double promedio;
     private int nota1, nota2, nota3;
 
-    public Personal_estudiantil() {
+    public Estudiantil() {
     }
 
-    public Personal_estudiantil(double promedio, int nota1, int nota2, int nota3, String nombre, String primero_apellido, String segundo_apellido, int cedula, int edad, boolean sexo) {
+    public Estudiantil(double promedio, int nota1, int nota2, int nota3, String nombre, String primero_apellido, String segundo_apellido, int cedula, int edad, boolean sexo) {
         super(nombre, primero_apellido, segundo_apellido, cedula, edad, sexo);
         this.promedio = promedio;
         this.nota1 = nota1;

@@ -3,19 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistema_matricula;
-
-import Interfaces_o_acciones.Imprimir_factura;
+package Interfaces_o_acciones;
 
 /**
  *
  * @author Kenneth
  */
-public class Matricula_estudiantil extends Persona implements Imprimir_factura {
+public interface ImprimirFactura {
 
-    @Override
-    public void Imprimir_factura() {
-
-    }
+    //Es importante saber que el interface sirve para implementar acciones que puedan ser utilizadas por una clase. 
+    public void Imprimir_factura();
 
 }
