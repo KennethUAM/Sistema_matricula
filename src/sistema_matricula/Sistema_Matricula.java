@@ -17,7 +17,7 @@ public class Sistema_Matricula {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        Personal_estudiantil pe = new Personal_estudiantil();
+        Estudiantil pe = new Estudiantil();
         
         
     }
