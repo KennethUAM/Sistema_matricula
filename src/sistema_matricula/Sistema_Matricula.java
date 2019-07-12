@@ -18,6 +18,7 @@ public class Sistema_Matricula {
         // TODO code application logic here
 
         Estudiantil pe = new Estudiantil();
+        Administrativo ad = new Administrativo();
         
         
     }
