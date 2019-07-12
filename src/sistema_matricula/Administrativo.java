@@ -29,4 +29,36 @@ public class Administrativo extends Persona {
         this.contrasena = contrasena;
     }
 
+    public int getNum_planilla() {
+        return num_planilla;
+    }
+
+    public void setNum_planilla(int num_planilla) {
+        this.num_planilla = num_planilla;
+    }
+
+    public String getNum_usuario() {
+        return num_usuario;
+    }
+
+    public void setNum_usuario(String num_usuario) {
+        this.num_usuario = num_usuario;
+    }
+
+    public String getContrasena() {
+        return contrasena;
+    }
+
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
+    }
+
+    public List<Persona> getAdministrativo() {
+        return administrativo;
+    }
+
+    public void setAdministrativo(List<Persona> administrativo) {
+        this.administrativo = administrativo;
+    }
+
 }
