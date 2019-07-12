@@ -60,5 +60,9 @@ public class Administrativo extends Persona {
     public void setAdministrativo(List<Persona> administrativo) {
         this.administrativo = administrativo;
     }
+    
+    
+    
+    
 
 }
