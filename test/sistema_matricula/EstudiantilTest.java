@@ -182,13 +182,11 @@ public class EstudiantilTest {
     @Test
     public void testAgregarEstudiante() {
         System.out.println("agregarEstudiante");
-        Persona alumno = new Persona("kenneth","Hidalgo","Loaiza",12,12,true);
-        Administrativo admisiones = new Administrativo(123,"56985","Alejandra","Beltran","","",20,12,false);
+        Persona alumno = new Persona("kenneth", "Hidalgo", "Loaiza", 12, 12, true);
+        Administrativo admisiones = new Administrativo(123, "56985", "Alejandra", "Beltran", "", "", 20, 12, false);
         String expResult = Mensajes.matricular_estudiante;
         String result = "El estudiante fue matriculado de forma exitosa!";
         assertEquals(expResult, result);
-        
-
 
     }
 
