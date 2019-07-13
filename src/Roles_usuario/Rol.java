@@ -22,6 +22,10 @@ public class Rol {
         this.nombre = mombre;
     }
 
+    public Rol(String alejandra, String administrativo) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public String getNombre() {
         return nombre;
     }

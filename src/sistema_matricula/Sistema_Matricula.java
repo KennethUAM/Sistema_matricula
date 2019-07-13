@@ -5,6 +5,8 @@
  */
 package sistema_matricula;
 
+import Roles_usuario.Rol;
+
 /**
  *
  * @author Kenneth

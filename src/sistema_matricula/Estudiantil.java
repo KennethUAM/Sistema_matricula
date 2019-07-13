@@ -24,6 +24,8 @@ public class Estudiantil extends Persona {
 
     public Estudiantil() {
     }
+    
+    
 
     public Estudiantil(double promedio, int nota1, int nota2, int nota3, String nombre, String primero_apellido, String segundo_apellido, int cedula, int edad, boolean sexo) {
         super(nombre, primero_apellido, segundo_apellido, cedula, edad, sexo);
@@ -92,5 +94,6 @@ public class Estudiantil extends Persona {
         String nombreRol = rolUsuario.getNombre();
         return nombreRol.equals(rolEsperado);
     }
+
 
 }
