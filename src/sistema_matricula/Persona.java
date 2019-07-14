@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author Kenneth
  */
-public class Persona {
+public abstract class Persona {
 
     private String nombre;
     private String primero_apellido;
